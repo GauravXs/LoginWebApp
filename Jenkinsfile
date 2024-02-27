@@ -15,7 +15,7 @@ pipeline {
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY = "in28Minutes-first-webapp"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "nexusCredential"
+        NEXUS_CREDENTIAL_ID = "nexus_cred"
         ARTIFACT_VERSION = "${BUILD_NUMBER}"
     }
 
