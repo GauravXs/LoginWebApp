@@ -23,7 +23,7 @@ pipeline {
         stage("Check out") {
             steps {
                 script {
-                    git branch: 'feature/executeAnsible', url: 'https://github.com/ranjit4github/LoginWebApp.git';
+                    git branch: 'master', url: 'https://github.com/GauravXs/LoginWebApp.git';
                 }
             }
         }
